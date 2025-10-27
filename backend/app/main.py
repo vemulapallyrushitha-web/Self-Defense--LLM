@@ -18,3 +18,5 @@ def root():
     return {"message": "Hello World"}
 
 app.include_router(chat.router)
+
+from .model_loader import generate_response
