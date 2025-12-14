@@ -174,33 +174,7 @@ coverage.xml
 # Alembic
 alembic/versions/*.py
 !alembic/versions/.gitkeep
-# =========================
-# LLM MODELS (DO NOT PUSH)
-# =========================
-filter_llm/
-generator_llm/
 
-# Model offloading folders
-offload/
-offload_filter/
-offload_generator/
-
-# Large model files
-*.bin
-*.safetensors
-*.pt
-*.pth
-
-# =========================
-# Frontend
-# =========================
-node_modules/
-
-# =========================
-# Project-specific
-# =========================
-git_backup/
-check_safetensors/
 
 
 
